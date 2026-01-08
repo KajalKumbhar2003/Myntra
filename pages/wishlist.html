@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Wishlist</title>
+
+  <link rel="stylesheet" href="../css/index.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo_container">
+      <a href="../index.html">
+        <img class="myntra_home" src="../images/myntra_logo.webp" />
+      </a>
+    </div>
+
+    <nav class="nav_bar">
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Home & Living</a>
+      <a href="#">Beauty</a>
+      <a href="#">Studio <sup>New</sup></a>
+    </nav>
+
+    <div class="search_bar">
+      <span class="material-symbols-outlined">search</span>
+      <input class="search_input" placeholder="Search for products" />
+    </div>
+
+    <a class="action_container" href="profile.html">
+      <span class="material-symbols-outlined">person</span>
+      <span>Profile</span>
+    </a>
+
+    <a class="action_container" href="wishlist.html">
+      <span class="material-symbols-outlined">favorite</span>
+      <span>Wishlist</span>
+    </a>
+
+    <a class="action_container" href="bag.html">
+      <span class="material-symbols-outlined">shopping_bag</span>
+      <span>Bag</span>
+      <span class="bag-item-count">0</span>
+    </a>
+  </header>
+
+  <!-- WISHLIST CONTENT -->
+  <main class="wishlist-page">
+    <h1>My Wishlist ❤️</h1>
+
+    <!-- ✅ ID MUST MATCH JS -->
+    <section class="items-container" id="wishlist-container"></section>
+  </main>
+
+  <!-- ✅ SCRIPTS (ORDER MATTERS) -->
+  <script src="../data/items.js"></script>
+  <script src="../scripts/wishlist.js"></script>
+
+</body>
+</html>

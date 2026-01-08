@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Profile</title>
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="../css/index.css" />
+
+  <!-- ICON FONT -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo_container">
+      <a href="../index.html">
+        <img
+          class="myntra_home"
+          src="../images/myntra_logo.webp"
+          alt="Myntra Home"
+        />
+      </a>
+    </div>
+
+    <nav class="nav_bar">
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Home & Living</a>
+      <a href="#">Beauty</a>
+      <a href="#">Studio <sup>New</sup></a>
+    </nav>
+
+    <div class="search_bar">
+      <span class="material-symbols-outlined search_icon">search</span>
+      <input
+        class="search_input"
+        placeholder="Search for products, brands and more"
+      />
+    </div>
+
+    <a class="action_container" href="profile.html">
+      <span class="material-symbols-outlined action_icon">person</span>
+      <span class="action_name">Profile</span>
+    </a>
+
+    <a class="action_container" href="wishlist.html">
+      <span class="material-symbols-outlined action_icon">favorite</span>
+      <span class="action_name">Wishlist</span>
+    </a>
+
+    <a class="action_container" href="bag.html">
+      <span class="material-symbols-outlined action_icon">shopping_bag</span>
+      <span class="action_name">Bag</span>
+      <span class="bag-item-count">0</span>
+    </a>
+  </header>
+
+  <!-- PROFILE CONTENT -->
+  <main class="profile-page">
+    <div class="profile-card">
+
+      <h1 class="profile-title">My Profile</h1>
+
+      <!-- 🔥 JS CONTROLS THIS AREA -->
+      <div id="profile-section"></div>
+
+    </div>
+  </main>
+
+  <!-- SCRIPT -->
+  <script src="../scripts/profile.js"></script>
+
+</body>
+</html>
